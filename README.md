@@ -1,5 +1,11 @@
 # nosql-challenge
 
+The assignment outlined below was completed by using NoSQL, python and pandas techniques learned in class. Starting with using the mongoimport command through terminal the JSON file was imported and the uk_food database was created with the a collection called "establishments." A new restaurant was added to that file called "Penang Flavours."
+
+Using the database, restaurants within the Local Authority Name of Dover were deleted, numeric object types were updated to "doubles" and then we moved on to the analysis of the database.
+
+In the analysis, I queried restaurants with a hygiene score of 20 (resulting in 41 restuarants) and put that the information in data frame. The I queried establishmens within the Local Authority Name of London that had a rating value greater than or equal to 4 and put that information in a data frame. Then I queried the top 5 establishments with a rating of 5, sorted by the lowest hygiene scores with a degree search of 0.01 from Penang Flavours and put that information in a data frame. Finally I queried how many establishments in each Local Authority that had a hygiene score of 0 and put that information in a data frame.
+
 Instructions
 The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 Part 1: Database and Jupyter Notebook Set Up
@@ -72,3 +78,7 @@ Unless otherwise stated, for each question:
 14	2	15	Maidstone	16	713
 17	3	18	Newham	19	711
 20	4	21	Swale	22	686
+
+
+##Acknowledgements
+I would like to acknowlege my instructor and TAs for their guidance in this project: Othmane Benyoucef, Jacob Peroutek, Isabella Taylor for their guidance and assistance. In addition, I sought out help with code on Stack Overflow and Github.
